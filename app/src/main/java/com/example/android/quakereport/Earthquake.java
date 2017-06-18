@@ -7,29 +7,30 @@ package com.example.android.quakereport;
 public class Earthquake {
 
     //Intensidad de la magnitud; p. ej: 4.1, 7.5...etc.
-    private String mMagnitude;
+    private double mMagnitude;
     //Lugar dónde ocurrió el terremoto; p. ej: San Francisco, Japón... etc.
     private String mPlace;
     //Fecha y año a la que ocurrieron el terremoro; p. ej: MM/DD, YYYY; y en letra, Aug 21, 2016.
-    private String mDate;
+    private long mTimeInMilliseconds;
+    //url respectiva al terremoto.
+    private String mUrl;
 
     //Creamos el objeto Earthquake con sus 3 parámetros declarados previamente.
-    public Earthquake (String magnitude, String place, String date){
+    public Earthquake (double magnitude, String place, long timeInMilliseconds, String url){
         mMagnitude = magnitude;
         mPlace = place;
-        mDate = date;
+        mTimeInMilliseconds = timeInMilliseconds;
+        mUrl = url;
     }
-    //Ahora obtenemos el valor de las variables mMagnitude, mPlace y mDate; respectivamente.
-    public String getmMagnitude(){
+    //Ahora obtenemos el valor de las variables mMagnitude, mPlace, mDate y mUrl; respectivamente.
+    public double getmMagnitude(){
         return mMagnitude;
     }
-    public String getmDate(){
-        return mDate;
-    }
-
+    public long getmTimeInMilliseconds(){ return mTimeInMilliseconds; }
     public String getmPlace() {
         return mPlace;
     }
+    public String getmUrl() { return  mUrl; }
 }
 
 

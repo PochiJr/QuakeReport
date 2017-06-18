@@ -14,12 +14,48 @@
      limitations under the License.
 -->
 <resources>
-    <!-- Primary color of the app (shown in the app bar) -->
+    <!-- Color de la barra de la aplicación -->
     <color name="colorPrimary">#2B3D4D</color>
 
-    <!-- Primary dark color of the app (shown in the status bar) -->
+    <!-- Color de la barra de estatus -->
     <color name="colorPrimaryDark">#23303D</color>
 
-    <!-- Accent color of the app -->
+    <!-- Accent color de la app -->
     <color name="colorAccent">#10CAC9</color>
+
+    <!-- Color del texto sobre los detalles sobre el terremoto en el List Item -->
+    <color name="textColorEarthquakeDetails">#B4BAC0</color>
+
+    <!-- Color de texto para l alocalización principal en el List Item -->
+    <color name="textColorEarthquakeLocation">#2B3D4D</color>
+
+    <!-- Color para un terremoto con una magnitud entre 0 y 2 -->
+    <color name="magnitude1">#4A7BA7</color>
+
+    <!-- Color para un terremoto con una magnitud entre 3 y 2 -->
+    <color name="magnitude2">#04B4B3</color>
+
+    <!-- Color para un terremoto con una magnitud entre 3 y 4 -->
+    <color name="magnitude3">#10CAC9</color>
+
+    <!-- Color para un terremoto con una magnitud entre 4 y 5 -->
+    <color name="magnitude4">#F5A623</color>
+
+    <!-- Color para un terremoto con una magnitud entre 5 y 6 -->
+    <color name="magnitude5">#FF7D50</color>
+
+    <!-- Color para un terremoto con una magnitud entre 6 y 7 -->
+    <color name="magnitude6">#FC6644</color>
+
+    <!-- Color para un terremoto con una magnitud entre 7 y 8 -->
+    <color name="magnitude7">#E75F40</color>
+
+    <!-- Color para un terremoto con una magnitud entre 8 y 9 -->
+    <color name="magnitude8">#E13A20</color>
+
+    <!-- Color para un terremoto con una magnitud entre 9 y 10 -->
+    <color name="magnitude9">#D93218</color>
+
+    <!-- Color para un terremoto con una magnitud superior a 10 -->
+    <color name="magnitude10plus">#C03823</color>
 </resources>
