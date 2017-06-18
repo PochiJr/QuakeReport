@@ -26,7 +26,7 @@
     <!-- Color del texto sobre los detalles sobre el terremoto en el List Item -->
     <color name="textColorEarthquakeDetails">#B4BAC0</color>
 
-    <!-- Color de texto para l alocalización principal en el List Item -->
+    <!-- Color de texto para la localización principal en el List Item -->
     <color name="textColorEarthquakeLocation">#2B3D4D</color>
 
     <!-- Color para un terremoto con una magnitud entre 0 y 2 -->

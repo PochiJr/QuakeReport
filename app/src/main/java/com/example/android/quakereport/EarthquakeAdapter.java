@@ -129,7 +129,6 @@ public class EarthquakeAdapter extends ArrayAdapter<Earthquake>{
     //Obtiene el nombre correspondiente a la posición del objeto Earthquake, se lo asigna, y lo
     //muestra en forma de texto en la TextView magnitude.
         magnitudeTextView.setText(formattedMagnitude);
-
         //Colocamos el color de fondo adecuado al círculo.
         //Extraemos el fondo de la TextView, que es un GradientDrawable.
         GradientDrawable magnitudeCircle = (GradientDrawable) magnitudeTextView.getBackground();
