@@ -74,7 +74,7 @@ public final class QueryUtils {
         } catch (IOException e) {
             Log.e (LOG_TAG, "Problema recuperando los resultados en JSON sobre el terremoto", e);
             // Independientemente de que se lance una exception o no en el bloque finally se realiza
-            // una desconexión (o se "cierra" como en el caso del inputStream) para poder reusarlo.
+            // una desconexión (o se "cierra" como en el caso del inputStream) para poder reusarlos.
         } finally {
             if (urlConnection != null){
                 urlConnection.disconnect();
